@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mariem's personal page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .intro h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .intro img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      filter: grayscale(100%);
+      margin: 0 auto;
+      display: block;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background-color: #f4f4f4;
+      padding: 1.5rem;
+      text-align: center;
+      border: 1px solid #000;
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .intro h1 {
+        font-size: 2.5rem;
+      }
+
+      .intro img {
+        width: 150px;
+        height: 150px;
+      }
+
+      section h2 {
+        font-size: 1.5rem;
+      }
+
+      .container {
+        padding: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .intro h1 {
+        font-size: 2rem;
+      }
+
+      .intro img {
+        width: 120px;
+        height: 120px;
+      }
+
+      .card {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My World</h1>
+  </header>
+
+  <div class="intro">
+    <h1>Hello, My name is Mariem</h1>
+    <img src="C:\Users\HP\Desktop\projet1\mariamphoto.jpg" alt="Profile Picture">
+  </div>
+
+  <div class="container">
+    <section id="hobbies">
+      <h2>My Hobbies</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Photography</h3>
+          <p>Capturing moments in black and white, focusing on urban landscapes and minimalism.</p>
+        </div>
+        <div class="card">
+          <h3>Hiking</h3>
+          <p>Exploring nature trails and mountains to find peace and inspiration.</p>
+        </div>
+        <div class="card">
+          <h3>Reading</h3>
+          <p>Diving into sci-fi novels and philosophy books for endless imagination.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="passions">
+      <h2>My Passions</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Environmental Advocacy</h3>
+          <p>Promoting sustainability and raising awareness about climate change.</p>
+        </div>
+        <div class="card">
+          <h3>Technology</h3>
+          <p>Exploring AI and coding to build tools that make life easier.</p>
+        </div>
+        <div class="card">
+          <h3>Art</h3>
+          <p>Creating abstract sketches to express emotions and ideas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Portfolio Site</h3>
+          <p>This very website, built to share my journey and interests.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Mariem. All rights reserved.</p>
+  </footer>
+</body>
+</html>
